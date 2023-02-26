@@ -1,0 +1,24 @@
+{
+  "name": "vuepress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "SET NODE_OPTIONS=--openssl-legacy-provider && vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keanuuuuuu/Vuepress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keanuuuuuu/Vuepress/issues"
+  },
+  "homepage": "https://github.com/Keanuuuuuu/Vuepress#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.9"
+  }
+}
